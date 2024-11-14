@@ -1,18 +1,17 @@
 # proj3
 
 Description:
-The Markdown to HTML Converter takes markdown-formatted text as input and converts it into HTML format. The GUI is built using tkinter, and the markdown library handles the conversion process.
+The File Organizer is a Python project that helps users sort and organize files in a specified directory. It automatically moves files into subfolders based on their file extensions, simplifying file management.
 
 Requirements:
 Python 3.x
-tkinter (included with Python)
-markdown library (install with pip)
+Standard libraries:
+os
+shutil
 
 Instructions to Run:
 Ensure Python 3.x is installed on your system.
-Install the markdown library:
-pip install markdown
-Save the markdown_converter.py script to your machine.
-Run the script from the command line:
-python markdown_converter.py
-Enter markdown text in the GUI's input field and click the "Convert" button to see the HTML output.
+Save the index.py script on your machine.
+Run the Python script from the command line:
+python index.py
+Input the directory path to be organized when prompted. The script will create subfolders for each file type and move files accordingly.
